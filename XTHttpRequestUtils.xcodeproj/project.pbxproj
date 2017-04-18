@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DE1BF231EA5ED130080CAA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1BF221EA5ED130080CAA0 /* main.m */; };
+		5DE1BF261EA5ED130080CAA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1BF251EA5ED130080CAA0 /* AppDelegate.m */; };
+		5DE1BF291EA5ED130080CAA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1BF281EA5ED130080CAA0 /* ViewController.m */; };
+		5DE1BF2C1EA5ED130080CAA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE1BF2A1EA5ED130080CAA0 /* Main.storyboard */; };
+		5DE1BF2E1EA5ED130080CAA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE1BF2D1EA5ED130080CAA0 /* Assets.xcassets */; };
+		5DE1BF311EA5ED130080CAA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE1BF2F1EA5ED130080CAA0 /* LaunchScreen.storyboard */; };
+		5DE1BF3F1EA5ED8A0080CAA0 /* XTSimpleHttpRequestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1BF3A1EA5ED8A0080CAA0 /* XTSimpleHttpRequestUtils.m */; };
+		5DE1BF401EA5ED8A0080CAA0 /* XTHttpRequestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1BF3C1EA5ED8A0080CAA0 /* XTHttpRequestUtils.m */; };
+		5DE1BF411EA5ED8A0080CAA0 /* XTNetworkReachabilityUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1BF3E1EA5ED8A0080CAA0 /* XTNetworkReachabilityUtils.m */; };
+		6DDC647C09E1E454F00B725F /* libPods-XTHttpRequestUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5B38A451B43F6094C129E5 /* libPods-XTHttpRequestUtils.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		043532463EDC94D940DF7141 /* Pods-XTHttpRequestUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTHttpRequestUtils.release.xcconfig"; path = "Pods/Target Support Files/Pods-XTHttpRequestUtils/Pods-XTHttpRequestUtils.release.xcconfig"; sourceTree = "<group>"; };
+		5DE1BF1E1EA5ED130080CAA0 /* XTHttpRequestUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTHttpRequestUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE1BF221EA5ED130080CAA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DE1BF241EA5ED130080CAA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DE1BF251EA5ED130080CAA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DE1BF271EA5ED130080CAA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DE1BF281EA5ED130080CAA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DE1BF2B1EA5ED130080CAA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DE1BF2D1EA5ED130080CAA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DE1BF301EA5ED130080CAA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DE1BF321EA5ED130080CAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE1BF391EA5ED8A0080CAA0 /* XTSimpleHttpRequestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSimpleHttpRequestUtils.h; sourceTree = "<group>"; };
+		5DE1BF3A1EA5ED8A0080CAA0 /* XTSimpleHttpRequestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSimpleHttpRequestUtils.m; sourceTree = "<group>"; };
+		5DE1BF3B1EA5ED8A0080CAA0 /* XTHttpRequestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTHttpRequestUtils.h; sourceTree = "<group>"; };
+		5DE1BF3C1EA5ED8A0080CAA0 /* XTHttpRequestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTHttpRequestUtils.m; sourceTree = "<group>"; };
+		5DE1BF3D1EA5ED8A0080CAA0 /* XTNetworkReachabilityUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTNetworkReachabilityUtils.h; sourceTree = "<group>"; };
+		5DE1BF3E1EA5ED8A0080CAA0 /* XTNetworkReachabilityUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTNetworkReachabilityUtils.m; sourceTree = "<group>"; };
+		8C5B38A451B43F6094C129E5 /* libPods-XTHttpRequestUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XTHttpRequestUtils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00BC6A80C079EDFE775E377 /* Pods-XTHttpRequestUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTHttpRequestUtils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XTHttpRequestUtils/Pods-XTHttpRequestUtils.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DE1BF1B1EA5ED130080CAA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DDC647C09E1E454F00B725F /* libPods-XTHttpRequestUtils.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DE1BF151EA5ED130080CAA0 = {
+			isa = PBXGroup;
+			children = (
+				5DE1BF201EA5ED130080CAA0 /* XTHttpRequestUtils */,
+				5DE1BF1F1EA5ED130080CAA0 /* Products */,
+				DC34E1895A2AAA63F8A8904C /* Pods */,
+				B5D4F475F0EA79DEEADF0B3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DE1BF1F1EA5ED130080CAA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DE1BF1E1EA5ED130080CAA0 /* XTHttpRequestUtils.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DE1BF201EA5ED130080CAA0 /* XTHttpRequestUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5DE1BF381EA5ED7B0080CAA0 /* XTHttpRequestUtils */,
+				5DE1BF241EA5ED130080CAA0 /* AppDelegate.h */,
+				5DE1BF251EA5ED130080CAA0 /* AppDelegate.m */,
+				5DE1BF271EA5ED130080CAA0 /* ViewController.h */,
+				5DE1BF281EA5ED130080CAA0 /* ViewController.m */,
+				5DE1BF2A1EA5ED130080CAA0 /* Main.storyboard */,
+				5DE1BF2D1EA5ED130080CAA0 /* Assets.xcassets */,
+				5DE1BF2F1EA5ED130080CAA0 /* LaunchScreen.storyboard */,
+				5DE1BF321EA5ED130080CAA0 /* Info.plist */,
+				5DE1BF211EA5ED130080CAA0 /* Supporting Files */,
+			);
+			path = XTHttpRequestUtils;
+			sourceTree = "<group>";
+		};
+		5DE1BF211EA5ED130080CAA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DE1BF221EA5ED130080CAA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DE1BF381EA5ED7B0080CAA0 /* XTHttpRequestUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5DE1BF391EA5ED8A0080CAA0 /* XTSimpleHttpRequestUtils.h */,
+				5DE1BF3A1EA5ED8A0080CAA0 /* XTSimpleHttpRequestUtils.m */,
+				5DE1BF3B1EA5ED8A0080CAA0 /* XTHttpRequestUtils.h */,
+				5DE1BF3C1EA5ED8A0080CAA0 /* XTHttpRequestUtils.m */,
+				5DE1BF3D1EA5ED8A0080CAA0 /* XTNetworkReachabilityUtils.h */,
+				5DE1BF3E1EA5ED8A0080CAA0 /* XTNetworkReachabilityUtils.m */,
+			);
+			path = XTHttpRequestUtils;
+			sourceTree = "<group>";
+		};
+		B5D4F475F0EA79DEEADF0B3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C5B38A451B43F6094C129E5 /* libPods-XTHttpRequestUtils.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC34E1895A2AAA63F8A8904C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A00BC6A80C079EDFE775E377 /* Pods-XTHttpRequestUtils.debug.xcconfig */,
+				043532463EDC94D940DF7141 /* Pods-XTHttpRequestUtils.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DE1BF1D1EA5ED130080CAA0 /* XTHttpRequestUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DE1BF351EA5ED130080CAA0 /* Build configuration list for PBXNativeTarget "XTHttpRequestUtils" */;
+			buildPhases = (
+				4663518290F0B4E6DB8066DC /* [CP] Check Pods Manifest.lock */,
+				5DE1BF1A1EA5ED130080CAA0 /* Sources */,
+				5DE1BF1B1EA5ED130080CAA0 /* Frameworks */,
+				5DE1BF1C1EA5ED130080CAA0 /* Resources */,
+				50A73BE0EBBCE82BD03C38E9 /* [CP] Embed Pods Frameworks */,
+				C32683008F4A5D06A566ECEF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTHttpRequestUtils;
+			productName = XTHttpRequestUtils;
+			productReference = 5DE1BF1E1EA5ED130080CAA0 /* XTHttpRequestUtils.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DE1BF161EA5ED130080CAA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HeXiaoBa;
+				TargetAttributes = {
+					5DE1BF1D1EA5ED130080CAA0 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = UP724GFX7H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5DE1BF191EA5ED130080CAA0 /* Build configuration list for PBXProject "XTHttpRequestUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DE1BF151EA5ED130080CAA0;
+			productRefGroup = 5DE1BF1F1EA5ED130080CAA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DE1BF1D1EA5ED130080CAA0 /* XTHttpRequestUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DE1BF1C1EA5ED130080CAA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE1BF311EA5ED130080CAA0 /* LaunchScreen.storyboard in Resources */,
+				5DE1BF2E1EA5ED130080CAA0 /* Assets.xcassets in Resources */,
+				5DE1BF2C1EA5ED130080CAA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4663518290F0B4E6DB8066DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50A73BE0EBBCE82BD03C38E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XTHttpRequestUtils/Pods-XTHttpRequestUtils-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C32683008F4A5D06A566ECEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XTHttpRequestUtils/Pods-XTHttpRequestUtils-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DE1BF1A1EA5ED130080CAA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE1BF291EA5ED130080CAA0 /* ViewController.m in Sources */,
+				5DE1BF411EA5ED8A0080CAA0 /* XTNetworkReachabilityUtils.m in Sources */,
+				5DE1BF3F1EA5ED8A0080CAA0 /* XTSimpleHttpRequestUtils.m in Sources */,
+				5DE1BF401EA5ED8A0080CAA0 /* XTHttpRequestUtils.m in Sources */,
+				5DE1BF261EA5ED130080CAA0 /* AppDelegate.m in Sources */,
+				5DE1BF231EA5ED130080CAA0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DE1BF2A1EA5ED130080CAA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DE1BF2B1EA5ED130080CAA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DE1BF2F1EA5ED130080CAA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DE1BF301EA5ED130080CAA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DE1BF331EA5ED130080CAA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DE1BF341EA5ED130080CAA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DE1BF361EA5ED130080CAA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00BC6A80C079EDFE775E377 /* Pods-XTHttpRequestUtils.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UP724GFX7H;
+				INFOPLIST_FILE = XTHttpRequestUtils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiangTai.XTHttpRequestUtils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DE1BF371EA5ED130080CAA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043532463EDC94D940DF7141 /* Pods-XTHttpRequestUtils.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UP724GFX7H;
+				INFOPLIST_FILE = XTHttpRequestUtils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiangTai.XTHttpRequestUtils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DE1BF191EA5ED130080CAA0 /* Build configuration list for PBXProject "XTHttpRequestUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE1BF331EA5ED130080CAA0 /* Debug */,
+				5DE1BF341EA5ED130080CAA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DE1BF351EA5ED130080CAA0 /* Build configuration list for PBXNativeTarget "XTHttpRequestUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE1BF361EA5ED130080CAA0 /* Debug */,
+				5DE1BF371EA5ED130080CAA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DE1BF161EA5ED130080CAA0 /* Project object */;
+}

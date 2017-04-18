@@ -1,0 +1,7 @@
+XTHttpRequestUtils.xcodeproj/xcuserdata/
+XTHttpRequestUtils.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+XTHttpRequestUtils.xcodeproj/project.xcworkspace/xcuserdata/
